@@ -13,7 +13,7 @@ public class LibraryApp2 {
 		
 		int j=1;
 
-		while (j<=3) {
+		while (j<=2) {
 			
 		switch (readOption()) {
 			case "a":{
@@ -45,15 +45,20 @@ public class LibraryApp2 {
 					novels[i].afisareNovel();
 				}
 			break;
+			
 			}
 			case "q":{
 				for (int i=0;i<ai;i++) {
-					albums[i].getTitluCarte();
-					System.out.println("titlu" +readTitlu());
+					System.out.println("carte " +i +"titlu " +albums[i].getTitluCarte());
+					System.out.println(readTitlu());
 //					if (albums[i].getTitluCarte()==readTitlu()) {
 //						System.out.println("match titlu");
 //						deleteAlbum().afisare();
 //					}
+//					else {
+//						System.out.println("not match titlu");
+//					}
+						
 				}
 			break;
 			}
@@ -143,7 +148,7 @@ public class LibraryApp2 {
 	}
 	
 	public static String readTitlu() {
-		String titlu=null;
+		String titlu;
 		
 		System.out.println("Introduceti titlul cartii pe care doriti sa o stergeti: ");
 		titlu = sc.next();
