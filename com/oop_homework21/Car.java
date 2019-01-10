@@ -1,6 +1,6 @@
 package com.oop_homework21;
 
-public class Car extends Vehicle implements VWGolf, VWPassat, CKlasse, SKlasse    {
+public class Car extends Vehicle implements Mercedes, VW     {
 	
 
 	private float fuelTankSize;
@@ -105,17 +105,12 @@ public class Car extends Vehicle implements VWGolf, VWPassat, CKlasse, SKlasse  
 
 
 
+
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWGolf#getAvailableFuel()
+	 * @see com.oop_homework21.Mercedes#getAvailableFuel()
 	 */
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWPassat#getAvailableFuel()
-	 */
-	/* (non-Javadoc)
-	 * @see com.oop_homework21.CKlasse#getAvailableFuel()
-	 */
-	/* (non-Javadoc)
-	 * @see com.oop_homework21.SKlasse#getAvailableFuel()
+	 * @see com.oop_homework21.VW#getAvailableFuel()
 	 */
 	@Override
 	public float getAvailableFuel() {
@@ -125,17 +120,12 @@ public class Car extends Vehicle implements VWGolf, VWPassat, CKlasse, SKlasse  
 
 
 
+
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWGolf#setAvailableFuel(float)
+	 * @see com.oop_homework21.Mercedes#setAvailableFuel(float)
 	 */
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWPassat#setAvailableFuel(float)
-	 */
-	/* (non-Javadoc)
-	 * @see com.oop_homework21.CKlasse#setAvailableFuel(float)
-	 */
-	/* (non-Javadoc)
-	 * @see com.oop_homework21.SKlasse#setAvailableFuel(float)
+	 * @see com.oop_homework21.VW#setAvailableFuel(float)
 	 */
 	@Override
 	public void setAvailableFuel(float availableFuel) {
@@ -160,16 +150,13 @@ public class Car extends Vehicle implements VWGolf, VWPassat, CKlasse, SKlasse  
 
 
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWGolf#getChassisNumber()
+	 * @see com.oop_homework21.VW#getChassisNumber()
 	 */
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWPassat#getChassisNumber()
+	 * @see com.oop_homework21.Mercedes#getChassisNumber()
 	 */
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.CKlasse#getChassisNumber()
-	 */
-	/* (non-Javadoc)
-	 * @see com.oop_homework21.SKlasse#getChassisNumber()
+	 * @see com.oop_homework21.VW#getChassisNumber()
 	 */
 	@Override
 	public String getChassisNumber() {
@@ -180,19 +167,19 @@ public class Car extends Vehicle implements VWGolf, VWPassat, CKlasse, SKlasse  
 
 
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWGolf#setChassisNumber(java.lang.String)
+	 * @see com.oop_homework21.VW#setChassisNumber(java.lang.String)
 	 */
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWPassat#setChassisNumber(java.lang.String)
+	 * @see com.oop_homework21.Mercedes#setChassisNumber(java.lang.String)
 	 */
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.CKlasse#setChassisNumber(java.lang.String)
-	 */
-	/* (non-Javadoc)
-	 * @see com.oop_homework21.SKlasse#setChassisNumber(java.lang.String)
+	 * @see com.oop_homework21.VW#setChassisNumber(java.lang.String)
 	 */
 	@Override
 	public void setChassisNumber(String chassisNumber) {
 		this.chassisNumber = chassisNumber;
 	}
+
+
+
 }

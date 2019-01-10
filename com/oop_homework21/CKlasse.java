@@ -3,34 +3,22 @@ package com.oop_homework21;
 public interface CKlasse {
 
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWGolf#getAvailableFuel()
-	 */
-	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWPassat#getAvailableFuel()
+	 * @see com.oop_homework21.VW#getAvailableFuel()
 	 */
 	float getAvailableFuel();
 
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWGolf#setAvailableFuel(float)
-	 */
-	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWPassat#setAvailableFuel(float)
+	 * @see com.oop_homework21.VW#setAvailableFuel(float)
 	 */
 	void setAvailableFuel(float availableFuel);
 
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWGolf#getChassisNumber()
-	 */
-	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWPassat#getChassisNumber()
+	 * @see com.oop_homework21.VW#getChassisNumber()
 	 */
 	String getChassisNumber();
 
 	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWGolf#setChassisNumber(java.lang.String)
-	 */
-	/* (non-Javadoc)
-	 * @see com.oop_homework21.VWPassat#setChassisNumber(java.lang.String)
+	 * @see com.oop_homework21.VW#setChassisNumber(java.lang.String)
 	 */
 	void setChassisNumber(String chassisNumber);
 
